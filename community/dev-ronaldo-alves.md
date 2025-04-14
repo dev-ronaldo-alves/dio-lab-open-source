@@ -134,47 +134,5 @@
 
   </main>
 
-  <script>
-    const frases = [
-      "👋 Olá! Eu sou o Ronaldo Alves",
-      "💻 Desenvolvedor Web",
-      "🚀 HTML5 | CSS3 | JS | PHP | Python",
-      "🤖 Entusiasta de IA",
-      "📩 dev.ronaldoalves@gmail.com"
-    ];
-
-    let i = 0;
-    let j = 0;
-    let isDeleting = false;
-    let currentText = "";
-    let typewriterElement = document.getElementById("typewriter");
-
-    function type() {
-      if (i >= frases.length) i = 0;
-
-      const fullText = frases[i];
-
-      if (isDeleting) {
-        currentText = fullText.substring(0, j--);
-      } else {
-        currentText = fullText.substring(0, j++);
-      }
-
-      typewriterElement.innerHTML = currentText + '<span class="cursor">|</span>';
-
-      if (!isDeleting && j === fullText.length) {
-        isDeleting = true;
-        setTimeout(type, 1500);
-      } else if (isDeleting && j === 0) {
-        isDeleting = false;
-        i++;
-        setTimeout(type, 500);
-      } else {
-        setTimeout(type, isDeleting ? 50 : 100);
-      }
-    }
-
-    document.addEventListener("DOMContentLoaded", type);
-  </script>
-</body>
+  </body>
 </html>
