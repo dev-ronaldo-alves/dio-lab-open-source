@@ -3,20 +3,6 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Ronaldo Alves - Desenvolvedor Web</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-      font-family: 'Exo 2', sans-serif;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: flex;
-      color: #f1f5f9;
     }
 
     .card {
