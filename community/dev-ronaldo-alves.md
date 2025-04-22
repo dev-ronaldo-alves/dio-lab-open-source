@@ -17,9 +17,6 @@
     <span>💬 Fale no WhatsApp</span>
   </a>
 </section>
-
-    <p><h2>Habilidades</h2>
-    <section class="skills">
   <h2>🧠 Minhas Habilidades</h2>
   <p>
     Como <strong>Desenvolvedor Web</strong>, domino tecnologias essenciais como <strong>HTML5, CSS3, JavaScript</strong> e <strong>PHP</strong>,
@@ -33,8 +30,6 @@
     Além das linguagens, possuo boa comunicação, organização e gosto de trabalhar em equipe, colaborando em soluções que realmente fazem a diferença.
   </p>
 </section>
-
-    <section class="contrib">
   <h2>🌟 Minhas Contribuições</h2>
   <ul>
     <li>✅ Participo de projetos open-source no GitHub.</li>
